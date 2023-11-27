@@ -4,14 +4,29 @@ alert('Welcome to Cheesy World!');
 
 const cheeseCountrySelect = prompt('How would like to search, cheese name or country name?');
 //alert(`The user entered: ${cheeseCountrySelect}`);
-        if (cheeseCountrySelect = 'cheese') {
-            alert('You have chosen to search by cheese name!');
-        } else if (cheeseCountrySelect = 'country'){
-            alert('You have chosen to search by country of origin');
-        } else {
-            returnMessage = 'Invalid Input';
-        };
 
+    function typeLocation(cheese, country) {
+        if (typeLocation = 'cheese') {
+            result = 'cheese';
+            alert('You have chosen to search the cheese by name!');
+        } else if (typeLocation = 'country') {
+            result = 'country';
+            alert ('You have chosen to search by country of origin');
+        } else {
+            result = 'Invalid Input';
+        }
+        return result;
+    }
+   //
+   //      if (cheeseCountrySelect = 'cheese') {
+   //          alert('You have chosen to search by cheese name!');
+   //      } else if (cheeseCountrySelect = 'country'){
+   //          alert('You have chosen to search by country of origin');
+   //      } else {
+   //          returnMessage = 'Invalid Input';
+   //      }
+   //
+   // const cheeseCountrySelect = prompt(cheese name or country name?)
 
 const cheeses = [
     {
